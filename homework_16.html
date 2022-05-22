@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./homework_16.css">
+</head>
+<body>
+    <!-- BÀI 1: -->
+    <div class="container">
+    <div>BÀI 1: Tìm n là số nguyên dương nhỏ nhất sao cho: sum = 1 + 2 + 3 + ... + n > 10000</div>
+    <button onclick="findN()">Tìm n!</button>
+    <div id="findN"></div>
+    </div>
+    <!-- BÀI 2: -->
+    <div class="container">
+    <div>BÀI 2: Viết chương trình nhập vào 2 số x, n 
+        tính tổng: S(n) = x + x^2 + x^3 + … + x^n </div>
+        <label for="x">Nhập x</label>
+        <input id="x" type="number">
+        <label for="n">Nhập n</label>
+        <input id="n" type="number">
+        <button onclick="calcSum()"> Tính tổng!</button>
+        <div id="sum"></div>
+    </div>
+    <!-- BÀI 3: -->
+    <div class="container">
+        <div>BÀI 3: Nhập vào y. Tính giai thừa 1*2*...y      </div>
+            <label for="y">Nhập y</label>
+            <input id="y" type="number">
+            <button onclick="calcFac()"> Tính giai thừa!</button>
+            <div id="fac"></div>
+        </div>
+
+    <!-- BÀI 4: -->
+    <div class="container">
+        <div>BÀI 4: Hãy viết chương trình:<br>
+            1. Khi click vào button sẽ in ra 10 thẻ div.<br>
+            2. Nếu div nào vị trí chẵn thì background màu đỏ.<br>
+            3. Nếu div vào vị trí lẻ thì background màu xanh.</div><br>
+            <button onclick="showContent()"> Tạo Div!</button>
+            <br><br>
+            <div id="content" style="display:none">
+            <div >div xanh</div>
+            <div >div đỏ</div>
+            <div >div xanh</div>
+            <div >div đỏ</div>
+            <div >div xanh</div>
+            <div >div đỏ</div>
+            <div >div xanh</div>
+            <div >div đỏ</div>
+            <div >div xanh</div>
+            <div >div đỏ</div>
+            </div>
+        </div>
+    <script src="./homework_16.js"></script>
+</body>
+</html
