@@ -15,8 +15,8 @@ cho đến khi sum > 10000 */
 // BÀI 2:
 function calcSum(){
 /* Khai báo kèm lấy giá trị số x và n; khai báo sum */
-    var x = document.getElementById('x').value;
-    var n = document.getElementById('n').value;
+    var x = +document.getElementById('x').value;
+    var n = +document.getElementById('n').value;
     var sum = 0
 /* Vòng lặp với điều kiện i <= n thì sum += x^i (=Math.pow(x,i))
 cho đến khi i>n thì dừng */
@@ -30,7 +30,7 @@ cho đến khi i>n thì dừng */
 // BÀI 3:
 function calcFac(){
 /* Khai báo kèm lấy giá trị số y; khai báo fac = 1 (do start từ i=1) */
-    var y = document.getElementById('y').value
+    var y = +document.getElementById('y').value
     var fac = 1
 /* Vòng lặp với điều kiện i <= y thì fac = fac(trước đó) * i
 cho đến khi i>y thì dừng */
